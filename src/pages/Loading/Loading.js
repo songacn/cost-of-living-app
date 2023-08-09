@@ -1,11 +1,11 @@
 import "./Loading.scss";
-import logo from "../../assets/loading-img.png";
+import logo from "../../assets/logo.png";
 
 const Loading = () => {
   return (
     <div className="loading">
+      <img src={logo} alt="logo" />
       <h1 className="loading-heading">MoneyBuddy</h1>
-      {/* <img src={logo} alt="logo" /> */}
     </div>
   );
 };
