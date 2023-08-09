@@ -1,5 +1,7 @@
-const page2 = () => {
-    return <h1>page2</h1>
+import "./Page2.scss"
+
+const Page2 = () => {
+    return <h1 className="page2-heading">Page2</h1>
 }
 
-export default page2;
+export default Page2;
