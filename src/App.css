@@ -1,4 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800&display=swap');
+
+:root {
+  --yellow: #FAD744;
+  --border-card: 10px;
+}
+
 .App {
+  text-align: center;
+  height: 100vh;
+  font-family: Inter, sans-serif;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+h1[class*="heading"] {
+  font-weight: 600 !important;
+  margin: 5vh;
+  margin-top: 10vh;
+  text-align: left;
+}
+
+.nav-item a {
+  color: white;
   text-align: center;
 }
 
@@ -32,6 +63,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

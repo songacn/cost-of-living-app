@@ -1,0 +1,16 @@
+.Card {
+  background-color: var(--yellow);
+  margin: 30px;
+  border-radius: var(--border-card);
+  padding: 7%;
+
+  > p {
+    text-align: left;
+  }
+
+  > h3 {
+    font-size: 3em;
+    font-weight: 600;
+    text-align: right;
+  }
+}
