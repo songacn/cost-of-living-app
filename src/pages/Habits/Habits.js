@@ -14,6 +14,7 @@ export const data = [
 export const options = {
   pieHole: 0.4,
   legend: { position: "none" },
+  pieSliceText: "none",
   colors: ["#671FAF", "#96DFFF", "#FFD526", "#D60000", "#D9FFD9"],
   is3D: false,
   chartArea: {

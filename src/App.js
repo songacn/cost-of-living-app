@@ -5,6 +5,12 @@ import Profile from "./pages/Profile/Profile";
 import Habits from "./pages/Habits/Habits";
 import Loading from "./pages/Loading/Loading";
 import Buddy from "./pages/Buddy/Buddy";
+
+// icons
+import personIcon from "./assets/icons8-male-user-32.png";
+import petIcon from "./assets/icons8-pet-32.png";
+import reportIcon from "./assets/icons8-report-32.png";
+
 import { useState } from "react";
 
 function App() {
@@ -34,25 +40,28 @@ function App() {
       {viewTab()}
       <ul class="nav justify-content-center">
         <li class="nav-item" onClick={() => changeTab("profile")}>
+          <img src={personIcon} />
           <a class="nav-link active" aria-current="page" href="#">
             Profile
           </a>
         </li>
         <li class="nav-item" onClick={() => changeTab("buddy")}>
+          <img src={petIcon} />
           <a class="nav-link" href="#">
             Buddy
           </a>
         </li>
         <li class="nav-item" onClick={() => changeTab("habits")}>
+          <img src={reportIcon} />
           <a class="nav-link" href="#">
             Habits
           </a>
         </li>
-        <li class="nav-item">
+        {/* <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">
             Disabled
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
